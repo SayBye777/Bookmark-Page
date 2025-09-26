@@ -1,4 +1,4 @@
-import Button from "./buttons/button";
+import Button from "./Button";
 
 export default function HeroContent() {
   return (

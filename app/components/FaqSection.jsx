@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import { useState } from "react"
-import Button from "./buttons/Button"
+import Button from "./Button"
 
 export default function FaqSection() {
     const [faqs, setFaqs] = useState(null)

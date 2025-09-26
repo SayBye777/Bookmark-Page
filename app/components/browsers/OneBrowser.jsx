@@ -1,5 +1,5 @@
 import Image from "next/image"  
-import Button from "../buttons/Button"
+import Button from "../Button"
 
 export default function OneBrowser({browser, version, margin}) {
   return (
