@@ -34,7 +34,7 @@ export default function FaqSection() {
     }
 
     return (
-        <div className="flex flex-col mb-15">
+        <section className="flex flex-col mb-15">
             <div className="lg:w-1/2 w-3/4 mx-auto flex flex-col gap-4">
                 <h2 className="lg:w-2/3 mx-auto text-4xl text-center">Frequently Asked Questions</h2>
                 <p className="lg:w-1/2 mx-auto text-gray-500 text-center">
@@ -67,6 +67,6 @@ export default function FaqSection() {
             </div>
 
             <Button className="mx-auto m-10" label="More Info"/>
-        </div>
+        </section>
     )
 }

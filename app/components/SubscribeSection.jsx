@@ -1,6 +1,6 @@
 export default function SubscribeSection(){
     return (
-        <div className="bg-blue-700 text-white py-6 h-auto">
+        <section className="bg-blue-700 text-white py-6 h-auto">
                 <div className="lg:w-1/5 w-full lg:mx-auto lg:items-center flex flex-col gap-6">
                     <h3 className="w-1/2 lg:w-full text-center mx-auto uppercase">35.000+ already joined</h3>
                     <p className="w-1/2 lg:w-full mx-auto text-2xl text-center"> Stay up-to-date with what we’re doing</p>
@@ -13,6 +13,6 @@ export default function SubscribeSection(){
                         </form>
                     </div>
                 </div>
-        </div>
+        </section>
     )
 }

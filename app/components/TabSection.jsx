@@ -32,7 +32,7 @@ export default function TabSection() {
   const [activeTab, setActiveTab] = useState(1)
 
   return (
-    <>
+    <section>
       
       <div className="lg:w-1/2 mx-auto flex flex-col lg:flex-row lg:justify-between">
       <hr className="lg:hidden border-0.5 border-gray-300"/>
@@ -83,6 +83,6 @@ export default function TabSection() {
             </div>
           )
       )}
-    </>
+    </section>
   )
 }

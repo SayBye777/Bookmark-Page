@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${rubik.variable} antialiased w-screen min-h-screen  bg-white`}
+        className={`${geistSans.variable} ${geistMono.variable} ${rubik.variable} antialiased w-screen min-h-screen max-w-screen bg-white`}
       >
         <div className="font-rubik">
           <Navbar/>

@@ -8,7 +8,7 @@ export default function BrowserSection() {
   ]
 
   return (
-    <div className="lg:w-2/3 w-3/4 mx-auto my-20">
+    <section className="lg:w-2/3 w-3/4 mx-auto my-20">
       <h2 className="lg:w-1/2 mx-auto text-4xl text-center mb-4">Download the extension</h2>
       <p className="lg:w-1/2 mx-auto text-center text-gray-600 mb-12">
         We’ve got more browsers in the pipeline. Please do let us know if you’ve 
@@ -25,6 +25,6 @@ export default function BrowserSection() {
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }

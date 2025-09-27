@@ -10,10 +10,10 @@ import TabSection from "./components/TabSection";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-center my-10 lg:w-4/5 mx-auto">
+      <section className="flex flex-col-reverse lg:flex-row justify-between items-center my-10 lg:w-4/5 mx-auto">
         <HeroContent/>
         <HeroImage/>
-      </div>
+      </section>
       <div className="flex flex-col gap-10 lg:w-4/5 mx-auto">
         <FeaturesSection/>
         <TabSection/>
